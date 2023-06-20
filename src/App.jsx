@@ -1,6 +1,8 @@
 // imports
 import React from 'react'
 import styles from "./style";
+import { Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients, CTA, Footer } from "./components";
+
 
 function App() {
   return (
@@ -20,15 +22,14 @@ function App() {
       {/* stats section */ }
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          Stats
-          Bussiness
-          Billing
-          CardDeal
-          Testimonials
-          Clients
-          CTA
-          Footer
-          
+          <Stats/>
+          <Business/>
+          <Billing/>
+          <CardDeal/>
+          <Testimonials/>
+          <Clients/>
+          <CTA/>
+          <Footer/>
         </div>
       </div>
     </div>

@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Bussiness() {
+function Business() {
   return (
     <div>Bussiness</div>
   )
 }
 
-export default Bussiness;
+export default Business;
